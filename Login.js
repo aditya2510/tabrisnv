@@ -210,8 +210,8 @@ function login(){
 	"Course":pickerIp.itemText(pickerIp.selectionIndex),
 	"Mobile":mobileTextIp.text,"Source":"SP_Infocity","City":"Pune"};
 	console.log(JSON.stringify(body));
-	console.log(constants.loginURL);
-	fetch(constants.loginURL, { 
+	console.log(constants.nverpURL);
+	fetch(constants.nverpURL, { 
     method: 'POST',
     body:    JSON.stringify(body),
     headers: { 'Content-Type': 'application/json' },
