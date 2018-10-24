@@ -144,7 +144,8 @@ let loginInput = new TextInput({
 
 let passwordTextIp = new TextInput({
   left: [textView2, 16], right: 16, baseline: textView2,
-  message: 'Enter Email'
+  message: 'Enter Email',
+  keyboard:'email'
  }).appendTo(mainPage);
  
  let textView3 = new TextView({
@@ -154,7 +155,8 @@ let passwordTextIp = new TextInput({
 
 let mobileTextIp = new TextInput({
   left: [textView3, 16], right: 16, baseline: textView3,
-  message: 'Enter Mobile:'
+  message: 'Enter Mobile:',
+  keyboard:'phone'
   }).appendTo(mainPage);
 
 
